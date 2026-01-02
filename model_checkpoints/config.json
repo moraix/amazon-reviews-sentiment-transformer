@@ -1,0 +1,7 @@
+{
+  "decision_threshold": 0.6,
+  "threshold_description": "Decision threshold tuned on validation set to optimize macro-F1 score. This threshold should be used when converting model probability predictions to binary class predictions.",
+  "tuning_method": "Grid search over thresholds from 0.05 to 0.95 (step 0.05)",
+  "optimization_metric": "macro-F1 (average of F1 scores for negative and positive classes)",
+  "tuning_date": "2026-01-02 03:56:25"
+}

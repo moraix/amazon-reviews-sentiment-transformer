@@ -1,0 +1,48 @@
+{
+  "model_info": {
+    "model_name": "transformer_sentiment_classifier",
+    "threshold": 0.6,
+    "evaluation_date": "2026-01-02 03:56:25",
+    "test_set_size": 106
+  },
+  "overall_metrics": {
+    "accuracy": 0.9433962264150944,
+    "accuracy_percentage": 94.33962264150944,
+    "precision": 0.9423076923076923,
+    "precision_percentage": 94.23076923076923,
+    "recall": 1.0,
+    "recall_percentage": 100.0,
+    "f1_score": 0.9702970297029703,
+    "f1_score_percentage": 97.02970297029702
+  },
+  "per_class_metrics": {
+    "negative_class": {
+      "precision": 1.0,
+      "precision_percentage": 100.0,
+      "recall": 0.25,
+      "recall_percentage": 25.0,
+      "f1_score": 0.4,
+      "f1_score_percentage": 40.0,
+      "support": 8
+    },
+    "positive_class": {
+      "precision": 0.9423076923076923,
+      "precision_percentage": 94.23076923076923,
+      "recall": 1.0,
+      "recall_percentage": 100.0,
+      "f1_score": 0.9702970297029703,
+      "f1_score_percentage": 97.02970297029702,
+      "support": 98
+    }
+  },
+  "macro_metrics": {
+    "macro_f1": 0.6851485148514851,
+    "macro_f1_percentage": 68.51485148514851
+  },
+  "confusion_matrix": {
+    "true_negatives": 2,
+    "false_positives": 6,
+    "false_negatives": 0,
+    "true_positives": 98
+  }
+}
